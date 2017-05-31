@@ -37,6 +37,7 @@ function prefix_redirect_error() {
         $errors = new Truongwp_Redirect_With_Error();
     }
 
+    // $errors->register_error( 'error-code', 'error-message' );
     $errors->register_error( 'error-1', 'This is error 1' );
     $errors->register_error( 'error-2', 'This is error 2' );
     $errors->register_error( 'error-3', 'This is error 3' );
@@ -55,6 +56,7 @@ You need:
 
 ```php
 <?php
+// This will add error code and nonce to URL parameters.
 $new_url = prefix_redirect_error()->add_error( $url, 'error-2' );
 wp_redirect( $new_url );
 ```
@@ -63,6 +65,7 @@ To display error, use this code:
 
 ```php
 <?php
+// This check error code and nonce via URL parameters to get error and display.
 prefix_redirect_error()->show_error();
 ```
 
