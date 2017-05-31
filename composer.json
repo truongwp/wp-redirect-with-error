@@ -10,5 +10,8 @@
             "email": "truongwp@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": ["class-truongwp-redirect-with-error.php"]
+    }
 }
