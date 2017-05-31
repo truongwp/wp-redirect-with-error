@@ -16,7 +16,7 @@ Then create a function to store class instance globally.
 ```php
 <?php
 function prefix_redirect_error() {
-	static $errors = null;
+    static $errors = null;
 
     if ( ! $errors ) {
         $errors = new Truongwp_Redirect_With_Error();
