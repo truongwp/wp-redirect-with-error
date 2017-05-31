@@ -1,0 +1,14 @@
+{
+    "name": "truongwp/wp-redirect-with-error",
+    "description": "Handle error when redirecting to other URL in WordPress.",
+    "keywords": ["wordpress", "error", "errors", "error-manager", "errors-manager", "error-handle", "errors-handle"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Truong Giang",
+            "email": "truongwp@gmail.com"
+        }
+    ],
+    "require": {}
+}
