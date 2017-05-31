@@ -8,7 +8,7 @@ Use simple URL parameter and nonce, don't use SESSION or COOKIE which not advise
 Just include file `class-truongwp-redirect-with-error.php` in your theme or plugin or use Composer to install.
 
 ```
-composer require "truongwp/wp-redirect-with-error=*"
+composer require "truongwp/wp-redirect-with-error >= 0.1.1"
 ```
 
 Then create a function to store class instance globally.
