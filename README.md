@@ -97,7 +97,7 @@ function prefix_redirect_error() {
     return $errors;
 }
 ```
-You can also change some other value, read the code and comments in `class-truongwp-redirect-with-error.php` file.``
+You can also change some other value, read the code and comments in `class-truongwp-redirect-with-error.php` file.
 
 
 ### Contributing
